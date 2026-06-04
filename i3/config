@@ -221,8 +221,8 @@ exec_always --no-startup-id autotiling
 
 # Gaps
 gaps inner 10
-gaps outer 0
-gaps top 0
+gaps outer 5
+gaps top 43
 
 # hide title bar
 default_border pixel 1

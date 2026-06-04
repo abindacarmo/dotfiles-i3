@@ -1,0 +1,20 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """[\ue0b6](fg:#7A6F8A)[ $username ](bg:#7A6F8A fg:#1f182a)[\ue0b0](fg:#7A6F8A bg:#A35F83)[ $directory ](bg:#A35F83 fg:#1f182a)[\ue0b0](fg:#A35F83 bg:#1f182a)[ ♥ $time ](bg:#1f182a fg:#7A6F8A)[\ue0b4](fg:#1f182a)$character"""
+
+[username]
+show_always = true
+format = "$user"
+
+[directory]
+truncation_length = 1
+format = "$path"
+
+[character]
+success_symbol = ""
+error_symbol = ""
+
+[time]
+disabled = false
+format = "$time"
+time_format = "%H:%M"

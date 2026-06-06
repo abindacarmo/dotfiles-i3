@@ -1,0 +1,16 @@
+calendar {
+    background-color: #1f182a;
+    color: #dbc8c9;
+    border-radius: 12px;
+    padding: 10px;
+}
+calendar:selected {
+    background-color: #7A6F8A;
+    color: #1f182a;
+    border-radius: 6px;
+}
+calendar.header {
+    background-color: #1f182a;
+    color: #7A6F8A;
+    font-weight: bold;
+}

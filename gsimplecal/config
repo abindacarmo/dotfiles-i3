@@ -1,0 +1,8 @@
+show_heading = 1
+show_week_numbers = 0
+show_tomorrow = 0
+close_on_unfocus = 1
+
+mainwindow_position = none
+mainwindow_xoffset = 650
+mainwindow_yoffset = 40
